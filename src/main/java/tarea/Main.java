@@ -7,7 +7,7 @@ package tarea;
 
 /**
  *
- * @author Maria
+ * @author Maria del Rosario (Charo)
  */
 public class Main {
     public static void main(String[] args) 
@@ -22,7 +22,7 @@ public class Main {
         }
         System.out.println("Estudiante " + args[0] + " : " + texto);
     }
-    static String veredicto(String valor1, String valor2) {
+    private static String veredicto(String valor1, String valor2) {
         int modulos = Integer.valueOf(valor1);  // modulos
         int horas = Integer.valueOf(valor2);    // horas semanales;
         if (modulos == horas) {
